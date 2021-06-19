@@ -7,6 +7,16 @@ import Restaurant.Menu;
         //menambahkan 3 atribut
         public String namakasir;
 
+        @Override
+        public String getNamapelanggan() {
+            return super.getNamapelanggan();
+        }
+
+        @Override
+        public void tampilkanpesanan() {
+            super.tampilkanpesanan();
+        }
+
         public String getNamakasir() {
             return namakasir;
         }
