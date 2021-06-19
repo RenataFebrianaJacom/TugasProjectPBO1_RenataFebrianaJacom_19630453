@@ -6,6 +6,31 @@ import Restaurant.Menu;
 
         //menambahkan 3 atribut
         public String namakasir;
+
+        public String getNamakasir() {
+            return namakasir;
+        }
+
+        public void setNamakasir(String namakasir) {
+            this.namakasir = namakasir;
+        }
+
+        public String getTotalbayar() {
+            return totalbayar;
+        }
+
+        public void setTotalbayar(String totalbayar) {
+            this.totalbayar = totalbayar;
+        }
+
+        public String getKembalian() {
+            return kembalian;
+        }
+
+        public void setKembalian(String kembalian) {
+            this.kembalian = kembalian;
+        }
+
         public String totalbayar;
         public String kembalian;
 
