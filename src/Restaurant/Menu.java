@@ -14,7 +14,7 @@ public class Menu {
     public String jumlahminuman;
     public int hargamakanan;
     public int hargaminuman;
-    public int kembalian;
+    public int jumlahharga;
 
     //4 method
    public  void tampilkannamapelanggan(){
@@ -31,5 +31,6 @@ public class Menu {
     public void hargamenu(){
        System.out.println(+namamakanan "=" +hargamakanan);
        System.out.println(+namaminuman "=" +hargaminuman);
+       System.out.println("Jumlah yang harus di bayar : " +jumlahharga);
     }
 }
