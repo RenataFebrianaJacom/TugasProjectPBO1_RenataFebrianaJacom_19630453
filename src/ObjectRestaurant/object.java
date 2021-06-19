@@ -9,6 +9,14 @@ public class object {
             //membuat object untuk Menu dan MenuSubclass
 
 
+            Menu cs = new Menu();
+            System.out.println(cs.namapelanggan);
+            System.out.println(cs.namamakanan);
+            System.out.println(" ");
+
+            Menu cstr = new Menu();
+            System.out.println(cstr.jumlahharga);
+            System.out.println(" ");
 
             Menu np = new Menu();
             np.namapelanggan = "Renata Febriana Jacom";   //object untuk nama pelanggan
