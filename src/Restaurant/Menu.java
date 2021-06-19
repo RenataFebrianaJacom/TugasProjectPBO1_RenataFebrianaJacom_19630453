@@ -12,14 +12,16 @@ public class Menu {
     public String namaminuman;
     public String jumlahmakanan;
     public String jumlahminuman;
-    public int hargamakanan;
-    public int hargaminuman;
-    public int jumlahharga;
+    public String hargamakanan;
+    public String hargaminuman;
+    public String jumlahharga;
 
     //4 method
    public  void tampilkannamapelanggan(){
         System.out.println("Selamat Datang" +namapelanggan);
     }
+    public void listmenu(){}
+
     public void tampilkanpesanan(){
        System.out.println("Makanan yang anda pesan : " +namamakanan);
        System.out.println("Minuman yang anda pesan : " +namaminuman);
@@ -29,8 +31,10 @@ public class Menu {
        System.out.println("Jumlah minuman yang dipesan  : " +jumlahminuman);
     }
     public void hargamenu(){
-       System.out.println(+namamakanan "=" +hargamakanan);
-       System.out.println(+namaminuman "=" +hargaminuman);
+       System.out.println( "Nama makanan :" +namamakanan);
+       System.out.println( "Harga Rp."+hargamakanan);
+       System.out.println( "Nama Minuman :" +namaminuman);
+       System.out.println( "Harga Rp."+hargaminuman);
        System.out.println("Jumlah yang harus di bayar : " +jumlahharga);
     }
 }
