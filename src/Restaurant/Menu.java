@@ -10,6 +10,70 @@ public class Menu {
     public String namapelanggan;
     public String namamakanan;
 
+    public String getNamapelanggan() {
+        return namapelanggan;
+    }
+
+    public void setNamapelanggan(String namapelanggan) {
+        this.namapelanggan = namapelanggan;
+    }
+
+    public String getNamamakanan() {
+        return namamakanan;
+    }
+
+    public void setNamamakanan(String namamakanan) {
+        this.namamakanan = namamakanan;
+    }
+
+    public String getNamaminuman() {
+        return namaminuman;
+    }
+
+    public void setNamaminuman(String namaminuman) {
+        this.namaminuman = namaminuman;
+    }
+
+    public String getJumlahmakanan() {
+        return jumlahmakanan;
+    }
+
+    public void setJumlahmakanan(String jumlahmakanan) {
+        this.jumlahmakanan = jumlahmakanan;
+    }
+
+    public String getJumlahminuman() {
+        return jumlahminuman;
+    }
+
+    public void setJumlahminuman(String jumlahminuman) {
+        this.jumlahminuman = jumlahminuman;
+    }
+
+    public String getHargamakanan() {
+        return hargamakanan;
+    }
+
+    public void setHargamakanan(String hargamakanan) {
+        this.hargamakanan = hargamakanan;
+    }
+
+    public String getHargaminuman() {
+        return hargaminuman;
+    }
+
+    public void setHargaminuman(String hargaminuman) {
+        this.hargaminuman = hargaminuman;
+    }
+
+    public String getJumlahharga() {
+        return jumlahharga;
+    }
+
+    public void setJumlahharga(String jumlahharga) {
+        this.jumlahharga = jumlahharga;
+    }
+
     //constructor
     public Menu() {
         namapelanggan= "Renata";

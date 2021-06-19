@@ -10,12 +10,14 @@ public class object {
 
 
             Menu cs = new Menu();
-            System.out.println(cs.namapelanggan);
+            System.out.println(cs.namapelanggan); //object constructor
             System.out.println(cs.namamakanan);
+            System.out.println("ini constructor loh yaa ");
             System.out.println(" ");
 
             Menu cstr = new Menu();
-            System.out.println(cstr.jumlahharga);
+            System.out.println(cstr.jumlahharga); //object constructor
+            System.out.println("ini juga sama constructor");
             System.out.println(" ");
 
             Menu np = new Menu();
